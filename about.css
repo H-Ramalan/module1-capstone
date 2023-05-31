@@ -1,0 +1,529 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-top {
+  height: 15%;
+  background-color: #272a31;
+}
+
+.top-icons-box {
+  margin: 0 10rem;
+}
+
+.top-icons {
+  display: flex;
+  list-style: none;
+  color: #fff;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+.list {
+  margin-right: 15px;
+  font-family: "lato", sans-serif;
+}
+
+.ham-icon {
+  display: none;
+}
+
+.nav-icon {
+  height: 15px;
+  width: 15px;
+  filter: brightness(0) invert(1);
+}
+
+.nav-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 10rem;
+}
+
+.nav-link-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav-img {
+  height: 40px;
+}
+
+.navlinks {
+  font-family: "lato", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: #272a31;
+}
+
+.navlinks:hover {
+  color: #ec5254;
+}
+
+.nav-box {
+  border: 5px solid #ec5254;
+  padding: 10px;
+  color: #ec5254;
+}
+
+.main-box {
+  background-image: url("./assets/hero.png");
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.main-name {
+  color: #ec5254;
+  font-family: "lato", sans-serif;
+  margin: 2rem 0;
+  font-weight: 700;
+}
+
+.about-note {
+  line-height: 36px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.name {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.main-note {
+  width: 70%;
+  background-color: #fff;
+  padding: 2rem 5rem;
+  font-family: "lato", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  margin: 2rem;
+  border: 1px solid #d3d3d3;
+}
+
+.reach-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.reach-note {
+  font-family: "lato", sans-serif;
+  margin: 2% 0;
+  font-size: 14px;
+}
+
+.reach-link {
+  color: rgb(44, 38, 38);
+  font-family: "lato", sans-serif;
+  margin: 2% 0;
+}
+
+.logo-hist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3%;
+}
+
+.logo-header {
+  font-family: "lato", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #272a31;
+}
+
+.logo-note-box {
+  width: 60%;
+}
+
+.logo-note {
+  font-family: "lato", sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+.hr-about {
+  width: 10%;
+  margin: 15px;
+}
+
+.logo-pic-box {
+  border: 1px solid #d3d3d3;
+  margin-top: 3%;
+}
+
+.about-img {
+  height: 15rem;
+  width: 20rem;
+  padding: 15px 20px;
+}
+
+.past-shows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 10rem;
+}
+
+.hr-past-shows {
+  width: 10%;
+  margin: 15px;
+}
+
+.past-shows-header {
+  font-family: "lato", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #272a31;
+}
+
+.past-note {
+  font-family: "lato", sans-serif;
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 4%;
+}
+
+.past-pics {
+  display: flex;
+  gap: 5%;
+}
+
+.year1-box {
+  background-image: linear-gradient(
+      rgba(219, 92, 33, 0.788),
+      rgba(219, 92, 33, 0.504)
+    ),
+    url("./assets/Aihs.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.year2-box {
+  background-image: linear-gradient(
+      rgba(219, 92, 33, 0.788),
+      rgba(219, 92, 33, 0.474)
+    ),
+    url("./assets/AIHS-70-29.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.year {
+  color: #fff;
+  font-family: "lato", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.note {
+  color: #fff;
+  font-family: "lato", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #272a31;
+}
+
+.footer-content {
+  display: flex;
+  margin: 0 4rem;
+  gap: 4rem;
+  padding: 2rem 0;
+  justify-content: center;
+}
+
+.footer-note {
+  display: none;
+}
+
+.footer-img {
+  height: 50px;
+}
+
+.rights {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.menu {
+  display: none;
+}
+
+.partners {
+  background-color: #272a31;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners-heading {
+  color: #fff;
+  font-family: "lato", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 3rem;
+}
+
+.hr-partners {
+  width: 3%;
+  margin: 1% 0;
+}
+
+.p-icon {
+  width: 140px;
+  filter: grayscale(100%);
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  /* .header {
+    display: block;
+  } */
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .nav-bottom {
+    display: none;
+  }
+
+  .nav-top {
+    display: none;
+  }
+
+  .ham-icon {
+    display: block;
+    width: 40px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .main-name {
+    color: #ec5254;
+    font-family: "lato", sans-serif;
+    margin: 1rem 1.5rem;
+    font-weight: 700;
+  }
+
+  .main-note {
+    width: 90%;
+    background-color: #fff;
+    padding: 1rem 1rem;
+    font-family: "lato", sans-serif;
+    margin: 1rem 2rem;
+    border: 1px solid #d3d3d3;
+  }
+
+  .about-note {
+    line-height: 25px;
+  }
+
+  .name {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 30px;
+  }
+
+  .reach-note {
+    margin: 1rem 2rem;
+    text-align: center;
+  }
+
+  .logo-header {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    margin: 1rem 1rem;
+  }
+
+  .hr-about {
+    width: 10%;
+    color: #ec5254;
+    margin-bottom: 1.5rem;
+  }
+
+  .logo-note {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .hr-past {
+    margin-top: 3rem;
+  }
+
+  .past-shows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1.5rem;
+  }
+
+  .past-shows-header {
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #272a31;
+    text-align: center;
+  }
+
+  .hr-past-shows {
+    width: 10%;
+    margin: 1rem 0;
+  }
+
+  .past-note {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .past-pics {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 2rem;
+  }
+
+  .year1-box {
+    width: 90vw;
+  }
+
+  .year2-box {
+    width: 90vw;
+  }
+
+  .year {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .note {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .partners {
+    background-color: #272a31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hr-partners {
+    width: 10%;
+    margin: 1.5rem;
+  }
+
+  .partner-icons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .footer {
+    background-color: #fff;
+    height: 0;
+  }
+
+  .footer-content {
+    margin: 1rem 1rem;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+
+  .rights {
+    display: none;
+  }
+
+  .footer-note {
+    font-family: "lato", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    display: block;
+  }
+
+  .menu {
+    background-color: #ec5254;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: auto;
+    width: 100%;
+    position: fixed;
+    display: none;
+  }
+
+  .close-button {
+    filter: grayscale(100%);
+    height: 40px;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    margin-bottom: 4rem;
+  }
+
+  .mobile-menu-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    list-style: none;
+  }
+
+  .mobile-menu-item {
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    font-family: "lato", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 15px;
+    color: #fff;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #fff;
+  }
+}
