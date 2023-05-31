@@ -78,7 +78,7 @@ This is the first capstone project
 1.  Clone the Repo with:
 
 ```
-git clone https://github.com/H-Ramalan/capstone-project.git
+git clone https://github.com/H-Ramalan/module1-capstone.git
 ```
 
 2. switch to the cloned directory
@@ -147,7 +147,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the <a href="https://github.com/H-Ramalan/capstone-project/issues"> issues page </a>
+Feel free to check the <a href="https://github.com/H-Ramalan/module1-capstone/issues"> issues page </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
