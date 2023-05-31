@@ -423,12 +423,12 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    margin-top: 4rem;
+    margin: 3rem 11px;
   }
 
   .speaker {
     width: 100%;
-    padding: 0 15px;
+    padding: 15px 19px;
   }
 
   .speaker-position {
