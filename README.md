@@ -84,7 +84,7 @@ git clone https://github.com/H-Ramalan/module1-capstone.git
 2. switch to the cloned directory
 
 ```
-cd capstone-project
+cd module1-capstone
 ```
 
 ### Installation
