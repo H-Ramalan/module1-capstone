@@ -115,7 +115,7 @@ To run tests, run the following command:
 ### Deployment
 
 - Project is deployed using [GitHub Pages](https://pages.github.com/)
-- <a href="https://H-Ramalan.github.io/capstone-project/">[🚀 Live Demo Link ] </a>
+- <a href="https://h-ramalan.github.io/module1-capstone/">[🚀 Live Demo Link ] </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
