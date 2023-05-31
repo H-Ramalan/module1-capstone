@@ -144,7 +144,7 @@
 
 .main-program-content {
   display: flex;
-  margin: 2rem 5rem;
+  margin: 2rem 15rem;
   justify-content: center;
   margin-bottom: 5rem;
 }
@@ -160,7 +160,8 @@
 
 .hr-main {
   width: 5%;
-  margin-bottom: 10rem;
+  margin-bottom: 3rem;
+  border-color: #ec5254;
 }
 
 .program-content {
@@ -237,6 +238,7 @@
   width: 5%;
   margin-left: 48%;
   margin-top: 1.5rem;
+  border-color: #ec5254;
 }
 
 .speaker {
@@ -265,6 +267,7 @@
 .hr-profile {
   width: 30px;
   margin: 7px 0;
+  border-color: #ec5254;
 }
 
 .speaker-note {
@@ -300,6 +303,7 @@
 .hr-partners {
   width: 3%;
   margin: 1.5% 0;
+  border-color: #ec5254;
 }
 
 .partner-icons {
@@ -318,7 +322,7 @@
 
 .footer-content {
   display: flex;
-  margin: 0 4rem;
+  margin: 0 18rem;
   gap: 4rem;
   padding: 2rem 0;
   justify-content: center;
@@ -409,6 +413,7 @@
 
   .hr-main {
     margin-bottom: 4rem;
+    border-color: #ec5254;
   }
 
   .program {
@@ -438,6 +443,7 @@
   .hr-speakers {
     width: 10%;
     margin: 20px 48%;
+    border-color: #ec5254;
   }
 
   .see-program {

@@ -29,6 +29,10 @@
   font-family: "lato", sans-serif;
 }
 
+.list :last-child {
+  margin-right: 0;
+}
+
 .ham-icon {
   display: none;
 }
@@ -163,6 +167,7 @@
 .hr-about {
   width: 10%;
   margin: 15px;
+  border-color: #ec5254;
 }
 
 .logo-pic-box {
@@ -186,6 +191,7 @@
 .hr-past-shows {
   width: 10%;
   margin: 15px;
+  border-color: #ec5254;
 }
 
 .past-shows-header {
@@ -208,8 +214,7 @@
 }
 
 .year1-box {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(219, 92, 33, 0.788),
       rgba(219, 92, 33, 0.504)
     ),
@@ -225,8 +230,7 @@
 }
 
 .year2-box {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(219, 92, 33, 0.788),
       rgba(219, 92, 33, 0.474)
     ),
@@ -262,7 +266,7 @@
 
 .footer-content {
   display: flex;
-  margin: 0 4rem;
+  margin: 0 15rem;
   gap: 4rem;
   padding: 2rem 0;
   justify-content: center;
@@ -279,6 +283,7 @@
 .rights {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   color: #fff;
 }
 
@@ -304,6 +309,7 @@
 .hr-partners {
   width: 3%;
   margin: 1% 0;
+  border-color: #ec5254;
 }
 
 .p-icon {
@@ -380,8 +386,8 @@
 
   .hr-about {
     width: 10%;
-    color: #ec5254;
     margin-bottom: 1.5rem;
+    border-color: #ec5254;
   }
 
   .logo-note {
@@ -391,6 +397,7 @@
 
   .hr-past {
     margin-top: 3rem;
+    border-color: #ec5254;
   }
 
   .past-shows {
@@ -411,6 +418,7 @@
   .hr-past-shows {
     width: 10%;
     margin: 1rem 0;
+    border-color: #ec5254;
   }
 
   .past-note {
@@ -453,6 +461,7 @@
   .hr-partners {
     width: 10%;
     margin: 1.5rem;
+    border-color: #ec5254;
   }
 
   .partner-icons {
