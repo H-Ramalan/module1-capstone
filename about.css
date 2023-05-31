@@ -208,7 +208,8 @@
 }
 
 .year1-box {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(219, 92, 33, 0.788),
       rgba(219, 92, 33, 0.504)
     ),
@@ -224,7 +225,8 @@
 }
 
 .year2-box {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(219, 92, 33, 0.788),
       rgba(219, 92, 33, 0.474)
     ),
